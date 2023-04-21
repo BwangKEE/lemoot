@@ -13,14 +13,14 @@ print("\n\n\nSelamat datang saya adalah mesin AI-HRD")
 print('\nAPI KEYS bisa di dapatkan disini : https://platform.openai.com/account/api-keys')
 #input pengguna
 apik = input('\nmasukkan API KEYS openai anda :')
-nama = input('\nMasukkan nama anda :')
+#nama = input('\nMasukkan nama anda :')
 
 #sistem
 messages = [
   {'role':'system','content':'kamu adalah seorang perekrut yang akan menguji dan menanyakan pertanyaan interview kepada pelamar kerja.Kamu menanyakan pertanyaan barus setiap saya selesai memberikan jawaban.Selalu menggunakan bahasa indonesia dalam menjawab pertanyaan'}
 ]
 while True:
-  content = input(f'\n{nama} :')
+  content = input(f'\nUser :')
   messages.append({'role':'user','content':content})
   openai.api_key = (str(apik))
   completion = openai.ChatCompletion.create(
