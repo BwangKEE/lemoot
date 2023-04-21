@@ -1,4 +1,4 @@
-#pemberitahuan
+# pemberitahuan
 
 pastikan sudah menginstall python
 
