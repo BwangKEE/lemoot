@@ -2,7 +2,7 @@
 
 pastikan sudah menginstall python
 
--anda tidak perlu menginstall library,semua library sudah otomatis
+-anda tidak perlu menginstall library,semua library akan diinstall otomatis
 
 
 
