@@ -1,8 +1,11 @@
 # pemberitahuan
-
+selamat datang di public project saya:)
 pastikan sudah menginstall python
 
--anda tidak perlu menginstall library,semua library akan diinstall otomatis
+-kamu tidak perlu menginstall library,semua library akan diinstall otomatis
+
+
+
 
 
 
